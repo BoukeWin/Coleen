@@ -27,3 +27,45 @@ details {
 summary {
   font-style: normal;
 }
+
+span {
+  height: 50px;
+  width: 75px;
+  background: grey;
+  display: inline-block;
+}
+
+.table {
+  height: 100px;
+  width: 90%;
+  background: violet;
+  display: table;
+}
+
+.tableParagraph {
+  height: 80%;
+  width: 30%;
+  background: yellowgreen;
+  overflow: hidden;
+  display: table-cell;
+}
+
+.floatRight {
+  float: right;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.table div {
+  width: 30%;
+  height: 400px;
+  background: lightblue;
+  overflow: scroll;
+}
+
+.footer {
+  display: block;
+  clear: both;
+}
